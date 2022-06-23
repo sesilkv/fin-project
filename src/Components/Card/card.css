@@ -8,3 +8,12 @@ img {
     border-radius: 4px;
     object-fit: none;
 }
+
+.style-card {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-style: none;
+}
+
+.style-img {
+    border-radius: 13px;
+}

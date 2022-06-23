@@ -10,6 +10,10 @@
     color: white;
 }
 
+.btn:active {
+    background-color: #351c4d;
+}
+
 @media (max-width: 770px) {
     .fi {
         display: none;
