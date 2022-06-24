@@ -11,7 +11,7 @@ import NavbarLogin from './Components/NavbarLogin/NavbarLogin';
 export default function App() {
   return (
     <BrowserRouter>
-      <EarlyNavbar />
+      <NavbarLogin />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/list" element={<List />} />
