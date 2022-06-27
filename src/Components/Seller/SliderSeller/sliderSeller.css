@@ -1,0 +1,20 @@
+:root {
+	--header: #000000;
+	--border: #d0d0d0;
+	--primary: #7126b5;
+	--secondary: #ffffff;
+	--lighter: #bf83f8;
+	--veryLight: #f5f4f4;
+	--thin: rgb(228, 222, 222);
+}
+
+.btn_swiper {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: none;
+    padding: 12px 38px;
+    border-radius: 16px;
+    font-size: 14px;
+    margin: 20px 15px 0px -10px;
+}
+

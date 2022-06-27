@@ -1,0 +1,52 @@
+:root {
+	--header: #000000;
+	--border: #d0d0d0;
+	--primary: #7126b5;
+	--secondary: #ffffff;
+	--lighter: #bf83f8;
+	--veryLight: #f5f4f4;
+	--thin: rgb(228, 222, 222);
+}
+
+.seller_header > h2 {
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.profile_card {
+	border: 1px solid var(--thin);
+	border-radius: 16px;
+	padding: 10px;
+}
+
+.image_position {
+	width: 60px;
+	height: 48px;
+	background-color: var(--lighter);
+	border-radius: 8px;
+}
+
+.seller_bio {
+	margin-left: 5px;
+	padding-top: 5px;
+}
+
+.seller_bio > h6 {
+	margin-bottom: 0;
+}
+
+.btn_container {
+	margin-left: 50px;
+}
+
+.btn_seller_bio {
+	border: 2px solid var(--primary);
+	padding: 8px 20px;
+	background-color: transparent;
+	border-radius: 16px;
+	margin-top: 3px;
+}
